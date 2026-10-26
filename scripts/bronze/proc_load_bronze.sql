@@ -1,3 +1,6 @@
+-- Loads CRM and ERP data from CSV files into the Bronze layer.
+-- Truncates existing tables before inserting fresh raw data.
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 
